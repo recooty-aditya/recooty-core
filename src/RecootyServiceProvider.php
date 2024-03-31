@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty;
+namespace Recooty\Core;
 
 use Illuminate\Support\ServiceProvider;
 
