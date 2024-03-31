@@ -25,8 +25,8 @@ class RecootyServiceProvider extends ServiceProvider
         ], 'traits');
 
         $this->publishes([
-            __DIR__.'/traits' => app_path('Models'),
-        ], 'traits');
+            __DIR__.'/models' => app_path('Models'),
+        ], 'models');
     }
 
     public function register()

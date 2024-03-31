@@ -9,10 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Recooty\\Core\\Models\\": "src/models",
-            "Recooty\\Core\\Enums\\": "src/enums",
-            "Recooty\\Core\\Services\\": "src/services",
-            "Recooty\\Core\\Traits\\": "src/traits"
+            "Recooty\\Core\\": "src/"
         }
     },
     "require": {
