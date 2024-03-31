@@ -1,6 +1,6 @@
 {
-    "name": "recooty-aditya/recooty-database",
-    "description": "This package contains all the centralized requirements for Recootty, such as models, migrations, enums, and services.",
+    "name": "recooty-aditya/recooty-core",
+    "description": "This package contains all the centralized requirements for Recooty, such as models, migrations, enums, and services.",
     "authors": [
         {
             "name": "Recooty Inc.",
