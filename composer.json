@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Recooty\\Core\\": "src/"
+            "Recooty\\": "src/"
         }
     },
     "require": {
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Recooty\\Core\\RecootyServiceProvider"
+                "Recooty\\RecootyServiceProvider"
             ]
         }
     }
