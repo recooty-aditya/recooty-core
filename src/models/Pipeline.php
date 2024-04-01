@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Recooty\Models;
 
 use App\Enums\Application\Status;
 use App\Enums\Round\Stage;

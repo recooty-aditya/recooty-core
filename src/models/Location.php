@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Recooty\Models;
 
 use Spatie\Activitylog\LogOptions;
 use Illuminate\Database\Eloquent\Model;

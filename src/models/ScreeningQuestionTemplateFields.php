@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Recooty\Models;
 
 use App\Enums\ScreeningQuestionTemplate\DataType;
 use App\Enums\ScreeningQuestionTemplate\FieldType;

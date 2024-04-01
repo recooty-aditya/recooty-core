@@ -1,16 +1,17 @@
 <?php
 
-namespace App\Models;
-
+namespace Recooty\Models;
 
 use Carbon\Carbon;
-use App\Models\JobPost;
+use Recooty\Models\JobPost;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class ActivityLog extends Model{
+
     use HasFactory;
+    
     protected $fillable = [
         'team_id',
         'causer_type',

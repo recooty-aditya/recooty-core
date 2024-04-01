@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Recooty\Models;
 
 use App\Actions\Preset\CareerPagePreset;
 use App\Actions\Preset\JobWidgetPreset;

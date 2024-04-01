@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Recooty\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use App\Enums\Application\Status;
