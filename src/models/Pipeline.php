@@ -2,8 +2,6 @@
 
 namespace Recooty\Models;
 
-use App\Enums\Application\Status;
-use App\Enums\Round\Stage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -30,28 +28,5 @@ class Pipeline extends Model
     public function rounds(): HasMany
     {
         return $this->hasMany(Round::class, 'pipeline_id', 'id');
-    }
-
-    protected static function booted()
-    {
-        static::created(function ($pipeline) {
-            $default_rounds = [
-                Stage::NEW->name => ['Applied', 'Sourced', 'Archived'],
-                Stage::OFFERED->name => ['Offer Sent', 'Offer Accepted', 'Offer Declined'],
-                Stage::REJECT->name => ['Manually Rejected', 'Auto Rejected'],
-            ];
-            foreach ($default_rounds as $stage => $rounds) {
-                foreach ($rounds as $index => $round) {
-                    Round::create([
-                        'name' => $round,
-                        'team_id' => $pipeline->team_id,
-                        'user_id' => $pipeline->user_id,
-                        'pipeline_id' => $pipeline->id,
-                        'stage' => $stage,
-                        'sequence' => $index,
-                    ]);
-                }
-            }
-        });
     }
 }

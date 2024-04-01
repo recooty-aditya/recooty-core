@@ -17,10 +17,6 @@ class RecootyServiceProvider extends ServiceProvider
         ], 'enums');
 
         $this->publishes([
-            __DIR__.'/services' => app_path('Services'),
-        ], 'services');
-
-        $this->publishes([
             __DIR__.'/traits' => app_path('Traits'),
         ], 'traits');
 
