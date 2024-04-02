@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Traits;
+namespace Recooty\Core\Traits;
 
 trait EnumToArray
 {

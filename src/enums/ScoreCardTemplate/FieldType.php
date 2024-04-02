@@ -2,7 +2,7 @@
 
 namespace Recooty\Core\Enums\ScoreCardTemplate;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum FieldType: string {
 
