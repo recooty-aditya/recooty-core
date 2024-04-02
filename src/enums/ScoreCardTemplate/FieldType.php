@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Enums\ScoreCardTemplate;
+namespace Recooty\Core\Enums\ScoreCardTemplate;
 
 use Recooty\Traits\EnumToArray;
 
