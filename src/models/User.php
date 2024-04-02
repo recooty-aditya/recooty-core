@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

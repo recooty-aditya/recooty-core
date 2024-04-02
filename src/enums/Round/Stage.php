@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\Round;
+namespace Recooty\Core\Enums\Round;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum Stage: string {
 

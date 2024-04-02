@@ -1,9 +1,9 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use Carbon\Carbon;
-use Recooty\Models\JobPost;
+use Recooty\Core\Models\JobPost;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

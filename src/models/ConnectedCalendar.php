@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

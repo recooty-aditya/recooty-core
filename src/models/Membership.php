@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use Laravel\Jetstream\Membership as JetstreamMembership;
 

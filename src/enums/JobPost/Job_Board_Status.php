@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\JobPost;
+namespace Recooty\Core\Enums\JobPost;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum Job_Board_Status: string {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\User;
+namespace Recooty\Core\Enums\User;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum OnboardingStatus: string {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\Interview;
+namespace Recooty\Core\Enums\Interview;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum Status: string {
 

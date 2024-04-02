@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use App\Enums\Notification\Type;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

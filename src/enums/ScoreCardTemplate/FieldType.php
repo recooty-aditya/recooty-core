@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Core\Enums\ScoreCardTemplate;
+namespace Recooty\Core\Core\Enums\ScoreCardTemplate;
 
-use Recooty\Core\Traits\EnumToArray;
+use Recooty\Core\Core\Traits\EnumToArray;
 
 enum FieldType: string {
 

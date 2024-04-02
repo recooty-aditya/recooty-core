@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\ScreeningQuestionTemplate;
+namespace Recooty\Core\Enums\ScreeningQuestionTemplate;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum FieldType: string {
 

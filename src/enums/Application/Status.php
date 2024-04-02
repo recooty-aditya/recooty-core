@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\Application;
+namespace Recooty\Core\Enums\Application;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum Status: string {
     

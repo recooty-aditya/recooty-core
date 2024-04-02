@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use App\Models\Pipeline;
 use Illuminate\Database\Eloquent\Model;

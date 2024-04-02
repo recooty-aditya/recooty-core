@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty\Models;
+namespace Recooty\Core\Models;
 
 use App\Enums\ScreeningQuestionTemplate\FieldType;
 use App\Enums\ScreeningQuestionTemplate\VisibilityType;

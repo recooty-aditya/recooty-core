@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\JobWidget;
+namespace Recooty\Core\Enums\JobWidget;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum WidgetType: string 
 {

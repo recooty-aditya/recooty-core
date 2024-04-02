@@ -1,8 +1,8 @@
 <?php
 
-namespace Recooty\Enums\Notification;
+namespace Recooty\Core\Enums\Notification;
 
-use Recooty\Traits\EnumToArray;
+use Recooty\Core\Traits\EnumToArray;
 
 enum Type: string 
 {
