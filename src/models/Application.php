@@ -56,5 +56,10 @@ class Application extends Model
     {
         return $this->hasMany(ApplicationComment::class, 'application_id', 'id')->with('user');
     }
+
+    public function round(): HasOne
+    {
+        return $this->hasOne(Round::class, 'id', 'round_id');
+    }
     
 }

@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('email_categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->json("fields");
-            $table->string("sent_to");
+            $table->json('fields');
+            $table->string('sent_to');
+            $table->string('stage')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
