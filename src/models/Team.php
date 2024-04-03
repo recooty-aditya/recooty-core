@@ -54,4 +54,17 @@ class Team extends JetstreamTeam
     {
         return $this->hasOne(JobWidget::class);
     }
+
+    public function getUsersByRole($role)
+    {
+        $users = $this->users->filter(function ($user) use ($role) {
+            return $user['membership']['role'] === $role;
+        });
+
+        if ($role == 'admin') {
+            return $users->merge([$this->owner]);
+        }
+
+        return $users->values();
+    }
 }
