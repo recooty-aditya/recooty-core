@@ -15,11 +15,11 @@ class ApplicationComment extends Model
         'application_id',
         'user_id',
         'comment',
-        'mention',
+        'mentions',
     ];
 
     protected $casts = [
-        'mention' => 'json',
+        'mentions' => 'array',
     ];
 
     public function user(): HasOne
