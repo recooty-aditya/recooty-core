@@ -2,13 +2,12 @@
 
 namespace Recooty\Core\Models;
 
-use App\Enums\ScreeningQuestionTemplate\FieldType;
-use App\Enums\ScreeningQuestionTemplate\VisibilityType;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Recooty\Core\Enums\ScreeningQuestionTemplate\VisibilityType;
 
 class ScreeningQuestionTemplate extends Model
 {

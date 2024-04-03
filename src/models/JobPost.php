@@ -13,7 +13,7 @@ use Illuminate\Notifications\Notifiable;
 
 class JobPost extends Model
 {
-    use HasFactory, SoftDeletes, HasSlug, Notifiable;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'user_id',

@@ -6,13 +6,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Laravel\Jetstream\Team as JetstreamTeam;
-use Spark\Billable;
-use Spatie\Sluggable\HasSlug;
-
 
 class Team extends JetstreamTeam
 {
-    use Billable,HasFactory,HasSlug,SoftDeletes;
+    use HasFactory,SoftDeletes;
 
     protected $casts = ['personal_team' => 'boolean'];
 

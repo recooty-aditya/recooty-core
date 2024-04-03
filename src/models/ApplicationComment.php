@@ -19,7 +19,6 @@ class ApplicationComment extends Model
     ];
 
     protected $casts = [
-        'comment' => 'json',
         'mention' => 'json',
     ];
 

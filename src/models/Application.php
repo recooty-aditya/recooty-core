@@ -31,6 +31,12 @@ class Application extends Model
         'ai_score',
     ];
 
+    protected $casts = [
+        'viewer' => 'array',
+        'resume_parse' => 'array',
+        'semantic_match' => 'array',
+    ];
+
     public function job_post(): HasOne
     {
         return $this->hasOne(JobPost::class, 'id', 'job_post_id');
