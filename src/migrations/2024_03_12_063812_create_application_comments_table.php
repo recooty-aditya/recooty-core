@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('application_id');
             $table->unsignedBigInteger('user_id');
-            $table->json('comment')->nullable();
-            $table->json('mention')->nullable();
+            $table->longText('comment')->nullable();
+            $table->json('mentions')->nullable();
             $table->timestamps();
             $table->softDeletes();
 
