@@ -33,8 +33,8 @@ class Application extends Model
 
     protected $casts = [
         'viewer' => 'array',
-        'resume_parse' => 'array',
-        'semantic_match' => 'array',
+        'resume_parse' => 'json',
+        'semantic_match' => 'json',
     ];
 
     public function job_post(): HasOne

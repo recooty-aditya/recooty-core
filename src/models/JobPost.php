@@ -43,6 +43,8 @@ class JobPost extends Model
         'jd_parse'
     ];
 
+    protected $casts = ['jd_parse' => 'json'];
+
 
     public function created_by(): HasOne
     {
