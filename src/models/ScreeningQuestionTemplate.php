@@ -47,4 +47,11 @@ class ScreeningQuestionTemplate extends Model
         $fields = ScreeningQuestionTemplateFields::where('template_id', $this->id)->where('visibility', '!=', VisibilityType::RECRUITER->name)->get();
         return $fields;
     }
+
+    public function default_fields()
+    {
+        $default_fields = config('constant.screening_question_template_default_fields');
+        return $default_fields;
+    }
+
 }
